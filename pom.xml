@@ -254,7 +254,7 @@
                     <!-- aggregated reports for multi-module projects -->
                     <aggregate>true</aggregate>
                 </configuration>
-        <plugin>
+        </plugin>
     </plugins>
 </build>
 </project>
