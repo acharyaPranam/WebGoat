@@ -225,8 +225,8 @@
         </plugin>
                  <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-                <version>${maven-release-plugin.version}</version>
+                            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.6.0</version>
                 <configuration>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <useReleaseProfile>false</useReleaseProfile>
@@ -238,7 +238,7 @@
             <plugin>
                 <groupId>org.eluder.coveralls</groupId>
                 <artifactId>coveralls-maven-plugin</artifactId>
-                <version>${coveralls-maven-plugin.version}</version>
+                <version>3.6.0</version>
                 <configuration>
                     <repoToken/>
                 </configuration>
@@ -246,7 +246,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>cobertura-maven-plugin</artifactId>
-                <version>${cobertura-maven-plugin.version}</version>
+             <version>3.6.0</version>
                 <configuration>
                     <check/>
                     <format>xml</format>
